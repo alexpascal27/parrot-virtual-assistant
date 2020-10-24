@@ -74,10 +74,10 @@ class UI(App):
         self.layout.add_widget(self.settings_b)
 
     def open_stack(self, instance, *args):
-        webbrowser.open('https://stackoverflow.com/users/8093979/gfsb')
+        webbrowser.open('alexzamurca.github.io/')
 
     def open_github(self, instance, *args):
-        webbrowser.open('https://github.com/gfsb27')
+        webbrowser.open('https://github.com/alexzamurca')
 
     def to_info_screen(self, instance, *args):
         self.layout.remove_widget(self.listen_b)
