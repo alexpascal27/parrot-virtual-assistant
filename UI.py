@@ -48,7 +48,7 @@ class UI(App):
         self.info_title = Label(text = "[color=413b49]Information[/color]", markup=True, font_size=45, pos=(150,615), size_hint=(.375,.115))
         self.title_separator = Label(text = "[color=413b49]_________________[/color]", markup=True,font_size=45, pos=(125,580), size_hint=(.375,.115))
         self.back_b = IconButton(source = "media/back.png", size_hint=(0.12,0.0686),pos=(20,630),on_press = self.to_main_screen)
-        self.information = Label(text = "[color=413b49] Refer to the [color=000000]README file[/color] \n for  information about \n content used in making[/color]\n\n\n[color=413b49]Build: [/color][color=000000]1.0[/color]\n\n\n[color=413b49]About maker:[/color]\n [color=000000]Alex Zamurca \n Python Programmer[/color]", halign="center", markup = True,font_size=30, pos=(20,280), size_hint=(.9,.2))
+        self.information = Label(text = "[color=413b49] Refer to the [color=000000]README file[/color] \n for  information about \n content used in making[/color]\n\n\n[color=413b49]Build: [/color][color=000000]1.0[/color]\n\n\n[color=413b49]About maker:[/color]\n [color=000000]Alex Zamurca \n Aspiring Developerr[/color]", halign="center", markup = True,font_size=30, pos=(20,280), size_hint=(.9,.2))
         self.github = IconButton(source = "media/github.png", size_hint=(.16,.0914),pos=(80,50), on_press= self.open_github)
         self.stack = IconButton(source = "media/stack.png", size_hint=(.16,.0914),pos=(260,50) , on_press=self.open_stack)
         #pop-up
